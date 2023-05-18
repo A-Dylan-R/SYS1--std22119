@@ -1,0 +1,9 @@
+1. Pour résoudre le premier défi d'authentification FTP, vous pouvez commencer par ouvrir le fichier ch1.pcap avec l'aide de l'outil Wireshark. Ensuite, vous pouvez filtrer les paquets TCP et suivre la session en cherchant les requêtes de type "Request: ... ". Cela devrait vous donner des informations sur l'authentification nécessaire pour accéder au serveur FTP.
+
+2. Le deuxième défi d'authentification Telnet peut être résolu en téléchargeant et en ouvrant le fichier ch2.pcap. Ensuite, vous pouvez suivre le flux TCP pour trouver le mot de passe nécessaire. Cela devrait vous permettre de résoudre ce défi assez facilement.
+
+3. Pour le troisième défi sur les trames Ethernet, vous devez ouvrir le lien fourni et copier le code hexadécimal qui se trouve entre "Authorization : ....." et "==". Ce code doit être décodé en texte, puis en base 64 pour obtenir le mot de passe nécessaire.
+
+4. Pour résoudre le quatrième défi d'authentification Twitter, vous pouvez ouvrir le fichier ch2.pcap et rechercher les informations dans les sections Hypertext Transfer Protocol et Authorization. Les informations d'identification nécessaires devraient être visibles sous Credentials - usertest.
+
+5. Le dernier défi concerne la résolution d'un fichier inconnu Bluetooth. Pour cela, vous devez ouvrir le fichier ch18.bin avec l'outil Wireshark et suivre les équipements Bluetooth. Ensuite, vous pouvez concaténer l'adresse MAC en majuscules avec le nom du téléphone, convertir le résultat en SHA1 et trouver le hash correspondant. Cela devrait vous aider à résoudre ce défi et à compléter l'ensemble des défis d'authentification proposés.
